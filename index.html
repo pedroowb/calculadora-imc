@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="introduction">
+            <h1 id="title">CALCULADORA DE IMC</h1>
+            <p id="description">Insira suas informações para descobrir em qual métrica de peso você se enquadra.</p>
+            <ul id="imc-ranges">
+                <li>
+                    <p>Abaixo de 18,5: Abaixo do peso</p>
+                </li>
+                <li>
+                    <p>Entre 18,5 e 24,9: Peso normal</p>
+                </li>
+                <li>
+                    <p>25 a 29,9: Sobrepeso</p>
+                </li>
+                <li>
+                    <p>30 ou mais: Obesidade</p>
+                </li>
+            </ul>
+        </section>
+        <section class="form-container">
+            <form id="imc-form">
+                <label for="weight" class="form-label">Seu Peso: </label>
+                <input type="text" id="weight" class="form-input">
+                <label for="height" class="form-label">Sua Altura: </label>
+                <input type="text" id="height" class="form-input">
+                <input type="button" value="Enviar" class="form-button"  onclick="calcularIMC()">
+
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

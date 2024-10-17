@@ -35,3 +35,5 @@ IMC = peso (kg) / altura (m)²
 - **Entre 18,5 e 24,9**: Peso normal
 - **Entre 25 e 29,9**: Sobrepeso
 - **30 ou mais**: Obesidade
+
+<img src="https://i.ibb.co/6F0749v/image.png" alt="image" border="0">
